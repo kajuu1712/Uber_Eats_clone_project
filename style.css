@@ -1,0 +1,236 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Nunito", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+body {
+    height: 100vh;
+    margin: 0 auto;
+}
+.background-img {
+    height: 100vh;
+    width: 100%;
+    overflow: hidden;
+    background-color: aqua;
+}
+.background-img .bkg-img {
+    height: 100%;
+    overflow: hidden;
+}
+.bkg-img img {
+    width: 100%;
+    height: 100%;
+}
+.background-img .front-info {
+    position: absolute;
+    top: 0;
+    height: 100%;
+    width: 100%;
+}
+.front-info .nav-bar {
+    height: 10%;
+    padding: 0 4rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    background-color: #f0b406
+}
+
+.nav-bar .left-nav {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.left-nav i{
+    transform: scale(1.8);
+}
+.left-nav h4 {
+    margin-left: 2rem;
+    font-size: 25px;
+}
+.left-nav h4 span {
+    font-weight: 900;
+}
+.nav-bar .right-nav {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.right-nav button {
+    margin: 0 1rem;
+    width: 70px;
+    height: 36px;
+    border-radius: 50px;
+    border: none;
+    font-weight: 700;
+}
+.right-nav button:hover {
+    opacity: 0.8;
+}
+.right-nav .login-btn {
+    background-color: white;
+    color: black;
+}
+.right-nav .signup-btn {
+    background-color: black;
+    color: white;
+}
+.front-info .odny {
+    margin: 12rem 0 0 3rem;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.odny h1{
+    font-weight: 800;
+    font-size: 38px;
+    letter-spacing: 1.6px;
+}
+.odny form {
+    display: flex;
+}
+.odny form div {
+    width: 500px;
+    height: 56px;
+    background-color: white;
+    margin-right: 5px;
+    display: flex;
+    align-items: center;
+    padding-left: 1rem;
+}
+
+.odny form i{
+    transform: scale(1.4);
+}
+.odny form input {
+    margin-left: 1rem;
+    width: 460px;
+    height: 40px;
+    font-weight: 700;
+    border: none;
+}
+.odny form .deliver-now {
+    width: 200px;
+    margin-left: 0.5rem;
+}
+.odny form .deliver-now select {
+    margin-left: 1rem;
+    width: 160px;
+    height: 40px;
+    font-weight: 700;
+    border: none;
+}
+.odny form button {
+    background-color: black;
+    color: white;
+    font-weight: 700;
+    width: 135px;
+    height: 57px;
+    font-size: 1rem;
+    border-radius: 6px;
+    margin-left: 0.5rem;
+    box-shadow: 0 0 2px white;
+    letter-spacing: 1.5px;
+}
+.odny a {
+    text-decoration: none;
+    color: black;
+    margin-bottom: 1rem;
+}
+.odny a:hover {
+    text-decoration: underline;
+}
+main {
+    margin: 2.2rem 0 6rem 0;
+    padding-top: 4rem;
+}
+main .first-section {
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-bottom: 6rem;
+}
+.first-section div {
+    width: 470px;
+    height: 320px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    margin: 0 2px 0 0;
+}
+.first-section div img {
+    object-fit: contain;
+}
+main .cnm {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 3rem;
+    padding-right: 2rem;
+}
+.cnm h4{
+    font-size: 3.2rem;
+    font-weight: 700;
+    padding-left: 3rem;
+}
+main ul{
+    list-style-type: none;
+    font-size: 1.2rem;
+    opacity: 0.7;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: repeat(6,1fr);
+    row-gap: 25px;
+    column-gap: 17px;
+    padding-bottom: 5rem;
+    padding-top: 2rem;
+    padding-left: 4rem;
+}
+footer .fone {
+    display: flex;
+    justify-content: space-between;
+    padding: 2rem;
+    border-top: 1px solid gainsboro;
+    border-bottom: 1px solid gainsboro;
+}
+.fone .leftf h4{
+    font-size: 2.3rem;    
+}
+
+.leftf .download {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 10rem;
+}
+.fone .rigthf {
+    width: 594px;
+}
+footer .fone .rightf ul{
+    list-style-type: none; 
+    display: grid; 
+    grid-template-columns: repeat(2,1fr); 
+    grid-template-rows: repeat(6,1fr);
+    column-gap: 3rem;
+    row-gap: 1.8rem;
+}
+footer .fone .rightf ul li:hover {
+    text-decoration: underline;
+}
+footer .ftwo .social-icons {
+    margin-top: 2rem;
+    margin-left: 2rem;
+    position: relative;
+    top: 2rem;
+}
+.social-icons i {
+    margin-left: 1rem;
+}
