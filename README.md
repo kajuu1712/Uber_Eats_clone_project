@@ -1,4 +1,4 @@
-Uber_Eats_clone_project
+# Uber Eats Replica landing page
 (Only using HTML and CSS)
 
 
